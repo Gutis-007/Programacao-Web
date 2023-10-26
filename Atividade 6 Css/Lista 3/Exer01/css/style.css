@@ -1,0 +1,105 @@
+body{
+    background-color: antiquewhite;
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+*{
+    margin: 0;
+
+}
+#menu{
+    width: 1280px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    background-color:#EDEDED;
+
+}
+#menu ul{
+    list-style: none;
+    margin: 2px;
+    
+}
+#menu ul li{
+    display: inline;
+    
+}
+#menu ul li a{
+    padding: 2px 10px;
+    text-decoration: none;
+    font-size: 21px;
+}
+#menu ul li a:hover{
+    cursor: pointer;
+    background-color: rgb(223, 214, 247);
+    border-bottom: 3px solid blueviolet;
+}
+section{
+    width: 1280px;
+    margin: 5px;
+}
+
+
+header{
+    width: 1280px;
+    margin: 5px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+}
+header img{
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    
+}
+footer{
+    width: 1280px;
+    margin: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+#Destaques{
+    width: 800px;
+    height: 300px;
+    margin: 5px;
+    border: 1px solid red;
+    float: left;
+}
+#TopoD{
+    width: 800px;
+    height: 40px;
+}
+#TopoD h1{
+    padding: 5px;
+    height: 35px;
+}
+#ImgD img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    float: left;
+    border: 1px solid red;
+}
+#Destaques p{
+   height: 200px;
+}
+
+#ContD{
+    display: flex;
+    flex-direction: column;
+
+}
+#ContD button{
+    width: 100px;
+    margin-left: 450px;
+}

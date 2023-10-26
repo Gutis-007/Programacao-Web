@@ -1,0 +1,45 @@
+<!--Codifique um formulário HTML para coletar o
+algumas informações pessoais de um cliente
+como: nome completo, sexo, estado civil e
+endereço, cidade, UF.
+ Neste código deve ser utilizado os elementos:
+◼ campo de texto
+◼ rádio
+◼ lista de seleção
+◼ botão de submeter-->
+
+<html>
+<head>
+  <title>Exer1° Form</title>
+</head>
+<body>
+  <form action="processar_formulario.php" method="post">
+    <label for="nome">Nome Completo:</label>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <label>Gênero:</label>
+    <input type="radio" id="masculino" name="genero" value="Masculino"> Masculino
+    <input type="radio" id="feminino" name="genero" value="Feminino"> Feminino
+    <input type="radio" id="outro" name="genero" value="Outro"> Outro<br><br>
+
+    <label for="estadoCivil">Estado Civil:</label>
+    <select id="estadoCivil" name="estadoCivil">
+      <option value="solteiro">Solteiro</option>
+      <option value="casado">Casado</option>
+      <option value="divorciado">Divorciado</option>
+      <option value="viuvo">Viúvo</option>
+    </select><br><br>
+
+    <label for="endereco">Endereço:</label>
+    <input type="text" id="endereco" name="endereco"><br><br>
+
+    <label for="cidade">Cidade:</label>
+    <input type="text" id="cidade" name="cidade"><br><br>
+
+    <label for="uf">UF:</label>
+    <input type="text" id="uf" name="uf"><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>

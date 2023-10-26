@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    
+    background-color: rgb(30, 20, 37);
+    color: #FFFFFFFF;
+    text-align: center;    
+}
+   h2{
+    font-size: 40px;
+   }
+   h1{
+    font-size: 50px;
+   }
+img{
+    border-radius: 10px;
+    border: #FFFFFFFF solid 2px;
+    
+}
+a{
+    color: rgb(76, 93, 247);
+}
+.primeiro{
+    text-align: left;
+    font-size: 20px;
+}
+p{
+    text-align: center;
+}

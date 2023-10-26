@@ -1,0 +1,76 @@
+
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+    color: #666666;
+}
+td{
+width: 25px;
+}
+th{
+    background-color:#F7F7F7 ;
+}
+
+.titulos{
+    color: #999999;
+    font-size: 13px;
+
+}
+
+.pontos{
+    font-size: 18px;
+    background-color: white;
+}
+.nome{
+    text-align: left;
+    font-size: 14px;
+    color: #666666;
+    background-color: white;
+    
+}
+.red{
+    color: #C91B04;
+}
+
+.blue{
+    color:#003366;
+}
+
+.lblue{
+    color: #1398BE;    
+}
+
+.silver{
+    color: #CCCCCC;
+}
+
+.gold{
+    color: #DE9800;
+}
+.grey{
+    background-color:  #F7F7F7;
+}
+.linha{
+    border-bottom:2px solid #DDDDDD;
+}
+#legend{
+    padding: 10;
+}
+.legenda{
+font-size: 10px;
+display: flex;
+color: #8F8F8F;
+text-align: right;
+
+}
+
+#legendinha{
+    font-size: 10;
+    color: #555555;
+    font-weight: bold;
+    text-align: right;
+    
+}

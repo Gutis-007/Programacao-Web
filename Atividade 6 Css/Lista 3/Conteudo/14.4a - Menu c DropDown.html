@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu Horizontal</title>
+	<style>
+	#menu ul {
+		margin: 0;
+		padding: 0;
+		background-color: purple;
+	}
+	#menu ul li {
+		position: relative;
+		display: inline;
+		}
+	#menu ul li a {
+		display: inline-block;
+		font-family: verdana;
+		background-color: purple;
+		color: white;
+		text-decoration: none;
+		padding: 5px 20px;
+	}
+	#menu ul li a:hover {
+		background-color: blue;
+	}
+	#menu ul li ul{
+		position: absolute;
+		top: 22px;
+		left: 0;
+		display: none;
+	}
+	#menu li:hover ul {display: block; }
+	
+	#menu li ul li {
+	width: 300px;
+	}
+	
+	</style>
+</head>
+<body>
+	<nav id="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="quemSomos.html">Quem Somos</a></li>
+			<li><a href="servicos.html">Serviços</a>
+			
+				<ul>
+					<li><a href="desenvolvimento.html">Desenvolvimento</a></li>
+					<li><a href="hospedagem.html">Hospedagem</a></li>
+					<li><a href="marketing.html">Marketing</a></li>
+				</ul>
+			
+			
+			
+			</li>
+			<li><a href="contato.html">Contato</a></li>
+		</ul>
+	</nav>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+}
+
+#Mais_lidos{
+    width: 455px;
+    height: 800px;
+    margin: 5px;
+    border: 1px solid red;
+    float: right;
+}
+#TopoM{
+    width: 455px;
+    height: 40px;
+}
+#TopoM h1{
+    padding: 5px;
+    height: 35px;
+}
+
+
+#ListaM{
+font-size: 15pt;
+}
+
+
+#TabelaM{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.ImgT{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+}
+img{
+    width: 200px;
+    height: auto;
+}

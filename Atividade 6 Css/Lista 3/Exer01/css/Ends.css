@@ -1,0 +1,50 @@
+#Ends{
+    width: 800px;
+    height: 488px;
+    margin: 5px;
+    float: inline-start;
+}
+#Back{
+    float: left;
+    width: 390px;
+    height: 488px;
+    border: 1px solid red;
+
+}
+#Front{
+    float: right;
+    width: 390px;
+    height: 488px;
+    border: 1px solid red;
+
+}
+
+.itens{
+    margin: 5px;
+}
+.Quadrado1{
+    height: 250px;
+}
+.Topo1{
+    height: 30px;
+
+}
+.Cont1{
+    height: 210px;
+}
+
+.Cont1 button{
+    margin-top: 50px;
+    margin-left: 280px;
+}
+
+.Topo2{
+    text-align: center;
+}
+.Quadrado2{
+    height: 220px;
+}
+.Lista2{
+    margin-top: 30px;
+    font-size: 15pt;   
+}
